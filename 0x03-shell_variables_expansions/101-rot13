@@ -1,0 +1,2 @@
+#!/bin/bash
+tr 'a-z' 'n-za-m' <<< "$(echo {a..z} | tr -d ' ') $(echo {A..Z} | tr -d ' ')"
